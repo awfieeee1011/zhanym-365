@@ -1,0 +1,396 @@
+/* =========================================================
+   EVERYTHING YOU'LL WANT TO EDIT LIVES IN THIS FILE.
+   - Text: change any of the strings below.
+   - Photos: put files in photos/<folder>/ and list them in `photos`.
+   - Songs: put your own audio files in audio/ and list them in `songs`.
+     They play in order, then loop, while that section is on screen.
+   ========================================================= */
+
+window.SITE = {
+  her: "Aida",
+  nickname: "zhanym",
+  since: "2025-10-18T00:00:00+05:00", // the moment it started (Maldives time)
+
+  intro: {
+    kicker: "18 · 10 · 2025 — 18 · 10 · 2026",
+    title: "One year of us",          // typed first, then erased…
+    titleAfter: "Happy Anniversary",  // …then this is typed and stays
+    line: "Put your headphones on, zhanym.",
+    // phones only allow sound after one tap; this hint disappears once music starts
+    soundHint: "Tap anywhere for sound",
+    accent: "#c99a63",
+    // plays on the opening screen
+    songs: [
+      { file: "audio/seoul-city.mp3", title: "Seoul City", artist: "JENNIE" }
+    ]
+  },
+
+  sections: [
+    {
+      id: "irufushi",
+      number: "01",
+      place: "Irufushi",
+      when: "Where it started",
+      accent: "#b06a3b", // copper
+      title: "“Let's go.”",
+      text: "Of everything I could have said to you first, it was two words, and somehow that was enough to start everything.",
+      songs: [
+        { file: "audio/color-violet.mp3", title: "The Color Violet", artist: "Tory Lanez" }
+      ],
+      photos: [
+        { src: "photos/1-irufushi/01.jpg", w: 417, h: 741 },
+        { src: "photos/1-irufushi/02.jpg", w: 1500, h: 2000 },
+        { src: "photos/1-irufushi/13.mp4", webm: "photos/1-irufushi/13.webm", poster: "photos/1-irufushi/13-poster.jpg", w: 608, h: 1080 },
+        { src: "photos/1-irufushi/03.jpg", w: 1500, h: 2000 },
+        { src: "photos/1-irufushi/04.jpg", w: 2000, h: 1500 },
+        { src: "photos/1-irufushi/15.mp4", webm: "photos/1-irufushi/15.webm", poster: "photos/1-irufushi/15-poster.jpg", w: 608, h: 1080 },
+        { src: "photos/1-irufushi/05.jpg", w: 1500, h: 2000 },
+        { src: "photos/1-irufushi/06.jpg", w: 1333, h: 2000 },
+        { src: "photos/1-irufushi/16.mp4", webm: "photos/1-irufushi/16.webm", poster: "photos/1-irufushi/16-poster.jpg", w: 608, h: 1080 },
+        { src: "photos/1-irufushi/07.jpg", w: 1333, h: 2000 },
+        { src: "photos/1-irufushi/08.jpg", w: 1500, h: 2000 },
+        { src: "photos/1-irufushi/17.mp4", webm: "photos/1-irufushi/17.webm", poster: "photos/1-irufushi/17-poster.jpg", w: 608, h: 1080 },
+        { src: "photos/1-irufushi/09.jpg", w: 1500, h: 2000 },
+        { src: "photos/1-irufushi/10.jpg", w: 1500, h: 2000 },
+        { src: "photos/1-irufushi/18.mp4", webm: "photos/1-irufushi/18.webm", poster: "photos/1-irufushi/18-poster.jpg", w: 608, h: 1080 },
+        { src: "photos/1-irufushi/11.jpg", w: 1500, h: 2000 },
+        { src: "photos/1-irufushi/12.jpg", w: 2000, h: 1500 },
+        { src: "photos/1-irufushi/19.mp4", webm: "photos/1-irufushi/19.webm", poster: "photos/1-irufushi/19-poster.jpg", w: 1080, h: 608 },
+        { src: "photos/1-irufushi/20.mp4", webm: "photos/1-irufushi/20.webm", poster: "photos/1-irufushi/20-poster.jpg", w: 608, h: 1080 },
+        { src: "photos/1-irufushi/20.jpg", w: 1600, h: 1200 },
+        { src: "photos/1-irufushi/22.mp4", webm: "photos/1-irufushi/22.webm", poster: "photos/1-irufushi/22-poster.jpg", w: 608, h: 1080 },
+        { src: "photos/1-irufushi/23.mp4", webm: "photos/1-irufushi/23.webm", poster: "photos/1-irufushi/23-poster.jpg", w: 608, h: 1080 },
+        { src: "photos/1-irufushi/21.jpg", w: 1500, h: 2000 },
+        { src: "photos/1-irufushi/24.mp4", webm: "photos/1-irufushi/24.webm", poster: "photos/1-irufushi/24-poster.jpg", w: 608, h: 1080 },
+        { src: "photos/1-irufushi/25.mp4", webm: "photos/1-irufushi/25.webm", poster: "photos/1-irufushi/25-poster.jpg", w: 480, h: 848 }
+      ] // add caption: "..." to any item if you like
+    },
+    {
+      id: "first-male",
+      number: "02",
+      place: "Hulhumalé",
+      when: "The “Yes” · October 18th 2025",
+      accent: "#c0605a", // sunset coral
+      title: "Five days, and a question",
+      text: "The five days that started writing our story. The nervousness, the excitement, the cuddles, the uncertainty. Despite everything, look zhanym, we made it to one year.",
+      songs: [
+        { file: "audio/no-one-noticed.mp3", title: "No One Noticed", artist: "The Marías" }
+      ],
+      photos: [
+        { src: "photos/2-first-male/01.jpg", w: 1500, h: 2000 },
+        { src: "photos/2-first-male/02.jpg", w: 1500, h: 2000 },
+        { src: "photos/2-first-male/03.jpg", w: 1125, h: 2000 },
+        { src: "photos/2-first-male/04.jpg", w: 1125, h: 2000 },
+        { src: "photos/2-first-male/13.mp4", webm: "photos/2-first-male/13.webm", poster: "photos/2-first-male/13-poster.jpg", w: 608, h: 1080 },
+        { src: "photos/2-first-male/05.jpg", w: 1500, h: 2000 },
+        { src: "photos/2-first-male/06.jpg", w: 1500, h: 2000 },
+        { src: "photos/2-first-male/07.jpg", w: 1500, h: 2000 },
+        { src: "photos/2-first-male/08.jpg", w: 1500, h: 2000 },
+        { src: "photos/2-first-male/14.mp4", webm: "photos/2-first-male/14.webm", poster: "photos/2-first-male/14-poster.jpg", w: 608, h: 1080 },
+        { src: "photos/2-first-male/09.jpg", w: 1500, h: 2000 },
+        { src: "photos/2-first-male/10.jpg", w: 1500, h: 2000 },
+        { src: "photos/2-first-male/11.jpg", w: 1500, h: 2000 },
+        { src: "photos/2-first-male/12.jpg", w: 1500, h: 2000 },
+        { src: "photos/2-first-male/15.mp4", webm: "photos/2-first-male/15.webm", poster: "photos/2-first-male/15-poster.jpg", w: 608, h: 1080 },
+        { src: "photos/2-first-male/19.jpg", w: 1500, h: 2000 },
+        { src: "photos/2-first-male/20.jpg", w: 1500, h: 2000 },
+        { src: "photos/2-first-male/21.jpg", w: 1125, h: 2000 },
+        { src: "photos/2-first-male/22.jpg", w: 1500, h: 2000 },
+        { src: "photos/2-first-male/16.mp4", webm: "photos/2-first-male/16.webm", poster: "photos/2-first-male/16-poster.jpg", w: 608, h: 1080 },
+        { src: "photos/2-first-male/23.jpg", w: 1125, h: 2000 },
+        { src: "photos/2-first-male/24.jpg", w: 1126, h: 2000 },
+        { src: "photos/2-first-male/25.jpg", w: 1600, h: 900 },
+        { src: "photos/2-first-male/26.jpg", w: 1500, h: 2000 },
+        { src: "photos/2-first-male/17.mp4", webm: "photos/2-first-male/17.webm", poster: "photos/2-first-male/17-poster.jpg", w: 608, h: 1080 },
+        { src: "photos/2-first-male/27.jpg", w: 1200, h: 1600 },
+        { src: "photos/2-first-male/28.jpg", w: 1200, h: 1600 },
+        { src: "photos/2-first-male/29.jpg", w: 1066, h: 1600 },
+        { src: "photos/2-first-male/30.jpg", w: 1066, h: 1600 },
+        { src: "photos/2-first-male/18.mp4", webm: "photos/2-first-male/18.webm", poster: "photos/2-first-male/18-poster.jpg", w: 608, h: 1080 },
+        { src: "photos/2-first-male/31.jpg", w: 1600, h: 1200 },
+        { src: "photos/2-first-male/32.jpg", w: 1200, h: 1600 },
+        { src: "photos/2-first-male/33.jpg", w: 1200, h: 1600 },
+        { src: "photos/2-first-male/34.jpg", w: 1200, h: 1600 },
+        { src: "photos/2-first-male/38.mp4", webm: "photos/2-first-male/38.webm", poster: "photos/2-first-male/38-poster.jpg", w: 832, h: 464 },
+        { src: "photos/2-first-male/35.jpg", w: 1200, h: 1600 },
+        { src: "photos/2-first-male/36.jpg", w: 1200, h: 1600 },
+        { src: "photos/2-first-male/37.jpg", w: 1200, h: 1600 }
+      ]
+    },
+    {
+      id: "second-male",
+      number: "03",
+      place: "Malé",
+      when: "Ten days · December 2025",
+      accent: "#a8676f", // dusty rose
+      title: "Ten days this time",
+      text: "Two months of missing you, and then you came back. Ten days in Malé, twice as long as the first time, and still not long enough.",
+      songs: [
+        { file: "audio/love-me-not.mp3", title: "Love Me Not", artist: "Ravyn Lenae" }
+      ],
+      photos: [
+        { src: "photos/3-second-male/01.jpg", w: 1500, h: 2000 },
+        { src: "photos/3-second-male/02.jpg", w: 1500, h: 2000 },
+        { src: "photos/3-second-male/03.jpg", w: 1500, h: 2000 },
+        { src: "photos/3-second-male/15.mp4", webm: "photos/3-second-male/15.webm", poster: "photos/3-second-male/15-poster.jpg", w: 608, h: 1080 },
+        { src: "photos/3-second-male/04.jpg", w: 1500, h: 2000 },
+        { src: "photos/3-second-male/05.jpg", w: 1500, h: 2000 },
+        { src: "photos/3-second-male/06.jpg", w: 1500, h: 2000 },
+        { src: "photos/3-second-male/17.mp4", webm: "photos/3-second-male/17.webm", poster: "photos/3-second-male/17-poster.jpg", w: 608, h: 1080 },
+        { src: "photos/3-second-male/07.jpg", w: 1500, h: 2000 },
+        { src: "photos/3-second-male/08.jpg", w: 1500, h: 2000 },
+        { src: "photos/3-second-male/09.jpg", w: 1500, h: 2000 },
+        { src: "photos/3-second-male/18.mp4", webm: "photos/3-second-male/18.webm", poster: "photos/3-second-male/18-poster.jpg", w: 608, h: 1080 },
+        { src: "photos/3-second-male/10.jpg", w: 1500, h: 2000 },
+        { src: "photos/3-second-male/11.jpg", w: 1500, h: 2000 },
+        { src: "photos/3-second-male/12.jpg", w: 1125, h: 2000 },
+        { src: "photos/3-second-male/19.mp4", webm: "photos/3-second-male/19.webm", poster: "photos/3-second-male/19-poster.jpg", w: 608, h: 1080 },
+        { src: "photos/3-second-male/13.jpg", w: 1125, h: 2000 },
+        { src: "photos/3-second-male/14.jpg", w: 1125, h: 2000 },
+        { src: "photos/3-second-male/16.jpg", w: 810, h: 1080 },
+        { src: "photos/3-second-male/20.mp4", webm: "photos/3-second-male/20.webm", poster: "photos/3-second-male/20-poster.jpg", w: 608, h: 1080 },
+        { src: "photos/3-second-male/22.jpg", w: 1500, h: 2000 },
+        { src: "photos/3-second-male/23.jpg", w: 1500, h: 2000 },
+        { src: "photos/3-second-male/24.jpg", w: 1500, h: 2000 },
+        { src: "photos/3-second-male/25.jpg", w: 1500, h: 2000 },
+        { src: "photos/3-second-male/21.mp4", webm: "photos/3-second-male/21.webm", poster: "photos/3-second-male/21-poster.jpg", w: 608, h: 1080 },
+        { src: "photos/3-second-male/26.jpg", w: 924, h: 2000 }
+      ]
+    },
+    {
+      id: "hanoi",
+      number: "04",
+      place: "Hanoi",
+      when: "A month together · February 2026",
+      accent: "#a8862f", // lantern gold
+      title: "A whole month",
+      text: "Not days this time. A whole month of Hanoi, and of waking up next to you. Thank you for showing this one of the many parts of the world zhanym.",
+      songs: [
+        { file: "audio/every-breath.mp3", title: "Every Breath You Take", artist: "The Police" }
+      ],
+      photos: [
+        { src: "photos/4-hanoi/05.mp4", webm: "photos/4-hanoi/05.webm", poster: "photos/4-hanoi/05-poster.jpg", w: 608, h: 1080 },
+        { src: "photos/4-hanoi/14.mp4", webm: "photos/4-hanoi/14.webm", poster: "photos/4-hanoi/14-poster.jpg", w: 576, h: 594 },
+        { src: "photos/4-hanoi/04.jpg", w: 1125, h: 2000 },
+        { src: "photos/4-hanoi/06.mp4", webm: "photos/4-hanoi/06.webm", poster: "photos/4-hanoi/06-poster.jpg", w: 1080, h: 608 },
+        { src: "photos/4-hanoi/01.jpg", w: 1125, h: 2000 },
+        { src: "photos/4-hanoi/07.mp4", webm: "photos/4-hanoi/07.webm", poster: "photos/4-hanoi/07-poster.jpg", w: 1080, h: 608 },
+        { src: "photos/4-hanoi/02.jpg", w: 1125, h: 2000 },
+        { src: "photos/4-hanoi/08.mp4", webm: "photos/4-hanoi/08.webm", poster: "photos/4-hanoi/08-poster.jpg", w: 1080, h: 608 },
+        { src: "photos/4-hanoi/09.jpg", w: 1080, h: 608 },
+        { src: "photos/4-hanoi/10.mp4", webm: "photos/4-hanoi/10.webm", poster: "photos/4-hanoi/10-poster.jpg", w: 608, h: 1080 },
+        { src: "photos/4-hanoi/03.jpg", w: 1125, h: 2000 },
+        { src: "photos/4-hanoi/11.mp4", webm: "photos/4-hanoi/11.webm", poster: "photos/4-hanoi/11-poster.jpg", w: 608, h: 1080 },
+        { src: "photos/4-hanoi/12.mp4", webm: "photos/4-hanoi/12.webm", poster: "photos/4-hanoi/12-poster.jpg", w: 608, h: 1080 },
+        { src: "photos/4-hanoi/13.mp4", webm: "photos/4-hanoi/13.webm", poster: "photos/4-hanoi/13-poster.jpg", w: 608, h: 1080 },
+        { src: "photos/4-hanoi/15.mp4", webm: "photos/4-hanoi/15.webm", poster: "photos/4-hanoi/15-poster.jpg", w: 608, h: 1080 },
+        { src: "photos/4-hanoi/16.mp4", webm: "photos/4-hanoi/16.webm", poster: "photos/4-hanoi/16-poster.jpg", w: 1080, h: 608 },
+        { src: "photos/4-hanoi/17.jpg", w: 1125, h: 2000 },
+        { src: "photos/4-hanoi/29.jpg", w: 1125, h: 2000 },
+        { src: "photos/4-hanoi/35.mp4", webm: "photos/4-hanoi/35.webm", poster: "photos/4-hanoi/35-poster.jpg", w: 608, h: 1080 },
+        { src: "photos/4-hanoi/19.jpg", w: 1500, h: 2000 },
+        { src: "photos/4-hanoi/28.jpg", w: 1125, h: 2000 },
+        { src: "photos/4-hanoi/30.jpg", w: 1500, h: 2000 },
+        { src: "photos/4-hanoi/33.mp4", webm: "photos/4-hanoi/33.webm", poster: "photos/4-hanoi/33-poster.jpg", w: 480, h: 854 },
+        { src: "photos/4-hanoi/21.jpg", w: 1125, h: 2000 },
+        { src: "photos/4-hanoi/20.jpg", w: 1500, h: 2000 },
+        { src: "photos/4-hanoi/31.jpg", w: 1125, h: 2000 },
+        { src: "photos/4-hanoi/34.mp4", webm: "photos/4-hanoi/34.webm", poster: "photos/4-hanoi/34-poster.jpg", w: 608, h: 1080 },
+        { src: "photos/4-hanoi/24.jpg", w: 2000, h: 1500 },
+        { src: "photos/4-hanoi/25.jpg", w: 2000, h: 1500 },
+        { src: "photos/4-hanoi/26.jpg", w: 1500, h: 2000 },
+        { src: "photos/4-hanoi/27.jpg", w: 1125, h: 2000 },
+        { src: "photos/4-hanoi/36.mp4", webm: "photos/4-hanoi/36.webm", poster: "photos/4-hanoi/36-poster.jpg", w: 1080, h: 608 },
+        { src: "photos/4-hanoi/22.jpg", w: 1125, h: 2000 },
+        { src: "photos/4-hanoi/23.jpg", w: 2000, h: 1500 },
+        { src: "photos/4-hanoi/32.jpg", w: 1080, h: 1920 },
+        { src: "photos/4-hanoi/18.jpg", w: 1500, h: 2000 },
+        { src: "photos/4-hanoi/37.jpg", w: 1125, h: 2000 },
+        { src: "photos/4-hanoi/51.mp4", webm: "photos/4-hanoi/51.webm", poster: "photos/4-hanoi/51-poster.jpg", w: 608, h: 1080 },
+        { src: "photos/4-hanoi/38.jpg", w: 1080, h: 1920 },
+        { src: "photos/4-hanoi/39.jpg", w: 1080, h: 1920 },
+        { src: "photos/4-hanoi/52.mp4", webm: "photos/4-hanoi/52.webm", poster: "photos/4-hanoi/52-poster.jpg", w: 608, h: 1080 },
+        { src: "photos/4-hanoi/40.jpg", w: 1920, h: 1080 },
+        { src: "photos/4-hanoi/41.jpg", w: 1125, h: 2000 },
+        { src: "photos/4-hanoi/53.mp4", webm: "photos/4-hanoi/53.webm", poster: "photos/4-hanoi/53-poster.jpg", w: 608, h: 1080 },
+        { src: "photos/4-hanoi/42.jpg", w: 1080, h: 1920 },
+        { src: "photos/4-hanoi/43.jpg", w: 1500, h: 2000 },
+        { src: "photos/4-hanoi/44.jpg", w: 1500, h: 2000 },
+        { src: "photos/4-hanoi/54.mp4", webm: "photos/4-hanoi/54.webm", poster: "photos/4-hanoi/54-poster.jpg", w: 608, h: 1080 },
+        { src: "photos/4-hanoi/45.jpg", w: 1125, h: 2000 },
+        { src: "photos/4-hanoi/46.jpg", w: 2000, h: 1125 },
+        { src: "photos/4-hanoi/47.jpg", w: 1080, h: 1920 },
+        { src: "photos/4-hanoi/55.mp4", webm: "photos/4-hanoi/55.webm", poster: "photos/4-hanoi/55-poster.jpg", w: 810, h: 1080 },
+        { src: "photos/4-hanoi/48.jpg", w: 1500, h: 2000 },
+        { src: "photos/4-hanoi/49.jpg", w: 2000, h: 1500 },
+        { src: "photos/4-hanoi/56.mp4", webm: "photos/4-hanoi/56.webm", poster: "photos/4-hanoi/56-poster.jpg", w: 608, h: 1080 }
+      ]
+    },
+    {
+      id: "male-again",
+      number: "05",
+      place: "Malé, once more",
+      when: "Before Antalya · June 2026",
+      accent: "#5d7a68", // evening sea
+      title: "Back where it began",
+      text: "Five more days in the city where we said yes, before you flew off to Antalya.",
+      songs: [
+        { file: "audio/reflections.mp3", title: "Reflections", artist: "The Neighbourhood" }
+      ],
+      photos: [
+        { src: "photos/5-male-again/03.jpg", w: 1500, h: 2000 },
+        { src: "photos/5-male-again/04.jpg", w: 1500, h: 2000 },
+        { src: "photos/5-male-again/05.jpg", w: 1500, h: 2000 },
+        { src: "photos/5-male-again/07.jpg", w: 1500, h: 2000 },
+        { src: "photos/5-male-again/09.jpg", w: 2000, h: 1500 },
+        { src: "photos/5-male-again/12.jpg", w: 1080, h: 1920 },
+        { src: "photos/5-male-again/13.jpg", w: 1080, h: 1920 },
+        { src: "photos/5-male-again/14.jpg", w: 1920, h: 1080 },
+        { src: "photos/5-male-again/15.jpg", w: 1920, h: 1080 },
+        { src: "photos/5-male-again/20.jpg", w: 1227, h: 800 },
+        { src: "photos/5-male-again/21.jpg", w: 1500, h: 2000 },
+        { src: "photos/5-male-again/25.jpg", w: 1080, h: 1920 },
+        { src: "photos/5-male-again/27.jpg", w: 1170, h: 658 },
+        { src: "photos/5-male-again/28.jpg", w: 1170, h: 1560 },
+        { src: "photos/5-male-again/26.jpg", w: 1170, h: 1560 },
+        { src: "photos/5-male-again/29.jpg", w: 1170, h: 1560 },
+        { src: "photos/5-male-again/22.jpg", w: 1229, h: 924 },
+        { src: "photos/5-male-again/24.jpg", w: 790, h: 1146 },
+        { src: "photos/5-male-again/23.jpg", w: 1080, h: 1920 },
+        { src: "photos/5-male-again/31.jpg", w: 1080, h: 1440 },
+        { src: "photos/5-male-again/33.jpg", w: 1080, h: 1440 },
+        { src: "photos/5-male-again/48.jpg", w: 1080, h: 1440 },
+        { src: "photos/5-male-again/49.jpg", w: 1080, h: 1440 },
+        { src: "photos/5-male-again/50.jpg", w: 1080, h: 1440 },
+        { src: "photos/5-male-again/51.jpg", w: 1080, h: 1440 },
+        { src: "photos/5-male-again/52.jpg", w: 1080, h: 1440 },
+        { src: "photos/5-male-again/32.jpg", w: 1080, h: 1440 },
+        { src: "photos/5-male-again/30.jpg", w: 924, h: 1440 },
+        { src: "photos/5-male-again/34.jpg", w: 1086, h: 1080 },
+        { src: "photos/5-male-again/35.jpg", w: 1080, h: 1440 },
+        { src: "photos/5-male-again/46.mp4", webm: "photos/5-male-again/46.webm", poster: "photos/5-male-again/46-poster.jpg", w: 360, h: 480 },
+        { src: "photos/5-male-again/38.jpg", w: 1080, h: 1440 },
+        { src: "photos/5-male-again/45.jpg", w: 864, h: 1152 },
+        { src: "photos/5-male-again/39.jpg", w: 1280, h: 960 },
+        { src: "photos/5-male-again/40.jpg", w: 960, h: 1280 },
+        { src: "photos/5-male-again/41.jpg", w: 960, h: 1280 },
+        { src: "photos/5-male-again/42.jpg", w: 2000, h: 1500 },
+        { src: "photos/5-male-again/47.mp4", webm: "photos/5-male-again/47.webm", poster: "photos/5-male-again/47-poster.jpg", w: 608, h: 1080 },
+        { src: "photos/5-male-again/43.jpg", w: 960, h: 1280 },
+        { src: "photos/5-male-again/44.jpg", w: 1280, h: 960 },
+        { src: "photos/5-male-again/10.jpg", w: 1500, h: 2000 },
+        { src: "photos/5-male-again/11.jpg", w: 1500, h: 2000 },
+        { src: "photos/5-male-again/08.jpg", w: 1500, h: 2000 },
+        { src: "photos/5-male-again/06.jpg", w: 924, h: 2000 },
+        { src: "photos/5-male-again/02.jpg", w: 1500, h: 2000 },
+        { src: "photos/5-male-again/01.jpg", w: 1152, h: 1536 },
+        { src: "photos/5-male-again/36.jpg", w: 924, h: 1643 },
+        { src: "photos/5-male-again/37.jpg", w: 924, h: 1802 },
+        { src: "photos/5-male-again/16.jpg", w: 1080, h: 1920 },
+        { src: "photos/5-male-again/17.jpg", w: 1920, h: 1080 },
+        { src: "photos/5-male-again/18.jpg", w: 1920, h: 1080 },
+        { src: "photos/5-male-again/19.jpg", w: 1126, h: 2000 }
+      ]
+    },
+    {
+      id: "maafushi",
+      number: "06",
+      place: "Maafushi",
+      when: "August 2026",
+      accent: "#8e6a4a", // bronze
+      title: "Island days",
+      text: "Sand, sea, and you next to me. Some of my favourite days of the whole year.",
+      songs: [
+        { file: "audio/sailor-song.mp3", title: "Sailor Song", artist: "Gigi Perez" }
+      ],
+      photos: [
+        { src: "photos/6-maafushi/20.mp4", webm: "photos/6-maafushi/20.webm", poster: "photos/6-maafushi/20-poster.jpg", w: 810, h: 1080 },
+        { src: "photos/6-maafushi/01.jpg", w: 1126, h: 2000 },
+        { src: "photos/6-maafushi/04.jpg", w: 1125, h: 2000 },
+        { src: "photos/6-maafushi/02.jpg", w: 2000, h: 1125 },
+        { src: "photos/6-maafushi/03.jpg", w: 2000, h: 1125 },
+        { src: "photos/6-maafushi/05.jpg", w: 1125, h: 2000 },
+        { src: "photos/6-maafushi/06.jpg", w: 1125, h: 2000 },
+        { src: "photos/6-maafushi/07.jpg", w: 1125, h: 2000 },
+        { src: "photos/6-maafushi/08.jpg", w: 1125, h: 2000 },
+        { src: "photos/6-maafushi/10.jpg", w: 1125, h: 2000 },
+        { src: "photos/6-maafushi/11.jpg", w: 1125, h: 2000 },
+        { src: "photos/6-maafushi/09.jpg", w: 2000, h: 1125 },
+        { src: "photos/6-maafushi/12.jpg", w: 1500, h: 2000 },
+        { src: "photos/6-maafushi/13.jpg", w: 1500, h: 2000 },
+        { src: "photos/6-maafushi/14.jpg", w: 1500, h: 2000 },
+        { src: "photos/6-maafushi/15.jpg", w: 1500, h: 2000 },
+        { src: "photos/6-maafushi/16.jpg", w: 1500, h: 2000 },
+        { src: "photos/6-maafushi/17.jpg", w: 1500, h: 2000 },
+        { src: "photos/6-maafushi/18.jpg", w: 1500, h: 2000 },
+        { src: "photos/6-maafushi/19.jpg", w: 1500, h: 2000 },
+        { src: "photos/6-maafushi/21.jpg", w: 1500, h: 2000 },
+        { src: "photos/6-maafushi/22.jpg", w: 1500, h: 2000 },
+        { src: "photos/6-maafushi/23.jpg", w: 1500, h: 2000 },
+        { src: "photos/6-maafushi/24.jpg", w: 1500, h: 2000 },
+        { src: "photos/6-maafushi/50.mp4", webm: "photos/6-maafushi/50.webm", poster: "photos/6-maafushi/50-poster.jpg", w: 810, h: 1080 },
+        { src: "photos/6-maafushi/25.jpg", w: 1500, h: 2000 },
+        { src: "photos/6-maafushi/26.jpg", w: 1080, h: 1920 },
+        { src: "photos/6-maafushi/27.jpg", w: 1125, h: 2000 },
+        { src: "photos/6-maafushi/28.jpg", w: 1500, h: 2000 },
+        { src: "photos/6-maafushi/29.jpg", w: 1500, h: 2000 },
+        { src: "photos/6-maafushi/30.jpg", w: 1500, h: 2000 },
+        { src: "photos/6-maafushi/31.jpg", w: 1500, h: 2000 },
+        { src: "photos/6-maafushi/32.jpg", w: 1500, h: 2000 },
+        { src: "photos/6-maafushi/33.jpg", w: 1500, h: 2000 },
+        { src: "photos/6-maafushi/34.jpg", w: 2000, h: 1500 },
+        { src: "photos/6-maafushi/35.jpg", w: 1500, h: 2000 },
+        { src: "photos/6-maafushi/36.jpg", w: 1500, h: 2000 },
+        { src: "photos/6-maafushi/37.jpg", w: 1500, h: 2000 },
+        { src: "photos/6-maafushi/38.jpg", w: 1500, h: 2000 },
+        { src: "photos/6-maafushi/39.jpg", w: 1500, h: 2000 },
+        { src: "photos/6-maafushi/40.jpg", w: 2000, h: 1500 },
+        { src: "photos/6-maafushi/41.jpg", w: 2000, h: 1500 },
+        { src: "photos/6-maafushi/42.jpg", w: 1500, h: 2000 },
+        { src: "photos/6-maafushi/43.jpg", w: 1500, h: 2000 },
+        { src: "photos/6-maafushi/51.mp4", webm: "photos/6-maafushi/51.webm", poster: "photos/6-maafushi/51-poster.jpg", w: 608, h: 1080 },
+        { src: "photos/6-maafushi/52.mp4", webm: "photos/6-maafushi/52.webm", poster: "photos/6-maafushi/52-poster.jpg", w: 608, h: 1080 },
+        { src: "photos/6-maafushi/44.jpg", w: 1080, h: 1920 },
+        { src: "photos/6-maafushi/45.jpg", w: 720, h: 1280 },
+        { src: "photos/6-maafushi/46.jpg", w: 1920, h: 1080 },
+        { src: "photos/6-maafushi/47.jpg", w: 1080, h: 1920 },
+        { src: "photos/6-maafushi/48.jpg", w: 720, h: 1280 },
+        { src: "photos/6-maafushi/49.jpg", w: 1500, h: 2000 },
+        { src: "photos/6-maafushi/53.jpg", w: 1126, h: 2000 },
+        { src: "photos/6-maafushi/54.jpg", w: 1125, h: 2000 }
+      ]
+    }
+  ],
+
+  // The letter after the last chapter. Each string is one paragraph.
+  // It types itself as she scrolls, staying about two sentences ahead of her.
+  letter: {
+    kicker: "One more thing",
+    songs: [
+      { file: "audio/i-wanna-be-yours.mp3", title: "I Wanna Be Yours", artist: "Arctic Monkeys" }
+    ],
+    paragraphs: [
+      "happy one year anniversary, zhanym. ❤️🥹",
+      "one whole year of us. one whole year since you came into my life and somehow became such a huge part of it that i genuinely can’t imagine my life the same way without you anymore. it’s crazy to think that the girl i met at Irufushi would become the person i love this much, the person i miss the moment we say goodbye, the person i wanna tell everything to, and the person i want beside me through all the little and big things life has waiting for me.",
+      "sometimes i sit and think about everything we’ve experienced together, and i honestly don’t know how to explain what you mean to me. from the beginning, to our time in maldives, to vietnam, to all those moments where we got to be together and pretend that distance wasn’t even a thing. especially vietnam. i think about those days so much, zhanym. getting to wake up and know you were there, spending our days together, going places, doing the most ordinary things with you and somehow having them become some of my favourite memories ever. even those two stays in malé, where being with you made it feel like we’d already been living together for a year, or maybe a whole lifetime. i didn’t need anything extraordinary. i just wanted more time with you.",
+      "and that’s something you’ve made me realise about love. it’s not always about doing something big or going somewhere beautiful. sometimes it’s just wanting to share an ordinary day with someone. waking up beside them, hearing their voice, looking at them while they’re doing absolutely nothing special, and still thinking that there’s nowhere else you’d rather be. and with you, that’s what i want. not just the trips, not just the beautiful places, not just the moments we take pictures of, but the ordinary life too. the days when we’re tired, the days when nothing goes right, the days when we have absolutely nothing planned. i want those days with you just as much as i want every adventure we dream about.",
+      "i know our relationship hasn’t always been easy. the distance, the goodbyes, having to leave each other and go back to our separate lives when all we really want is more time together. i still think about those moments at the airport, when leaving you hurt so much that i didn’t even know what to do with all the feelings inside me. i hate that loving you sometimes means having to miss you from so far away. i hate that there are days when all i want is to hold you and i can’t. but even with all of that, if i could go back to the beginning and choose again, knowing every goodbye, every difficult moment, every time i’d miss you until it hurt, i’d still choose you. every single time, zhanym. i wouldn’t need to know how everything would turn out. i’d just need to know that somewhere along the way, i’d get to meet you again.",
+      "and i want you to know that i’m not just in love with the moments we’ve already had. i’m in love with the future i imagine with you, too. the one where we don’t have to count down the days until we see each other. where we don’t have to make every moment together feel special because we know another goodbye is coming. where we can finally build our own little life, travel together whenever we can, discover new places, experience different seasons, come home to each other and make memories that don’t have to end with a flight ticket. i want to experience so much of this world with you, zhanym, but more than anything, i want to experience it with you beside me. because the place has never been the most important part. it’s always been who i’m there with.",
+      "i know i’m not perfect, zhanym. i know there are times when i struggle to express myself the right way, when my feelings come out wrong, or when i don’t manage to show you what you mean to me in the way you deserve. but please never mistake my imperfections for a lack of love. what i feel for you is real, and i want to keep learning how to love you better, how to understand you better, how to make you feel safe, appreciated, respected and loved, not just through my words but through the way i treat you every day. i don’t want to be someone who only tells you beautiful things. i want to be someone whose actions make you believe them.",
+      "thank you for being part of my life. thank you for the memories, the laughter, the affection, the little moments that probably seemed ordinary when they happened but have stayed with me long after we’ve been apart. thank you for being my person, my zhanym. you have given me so many moments that i wish i could go back and live one more time, and so many things to look forward to that i can’t wait to experience for the first time with you.",
+      "happy one year, my love. ❤️",
+      "if there’s one thing i want you to take from this message, it’s that you aren’t just someone i love in the present. you’re someone i want to keep choosing as we grow, as our lives change, as we work towards our dreams, and as we figure out this big, complicated world together. i can’t promise that every day will be perfect, but i want to keep showing up for us. i want to keep making memories with you. i want to keep learning you, loving you and finding new reasons to fall in love with you all over again.",
+      "one year ago, i had no idea how much you would come to mean to me. now, when i think about the future, you’re in so many of the things i hope for.",
+      "i love you so much, zhanym. more than i can properly put into words, even after writing all of this. and if i could have one thing tonight, it would be to hold you close, kiss your forehead, look into your eyes and tell you all of this in person instead of through a screen.",
+      "until i can do that, just know that somewhere across this distance, there’s a boy who loves you with his whole heart and who can’t wait for the day when saying goodnight doesn’t mean being apart anymore.",
+      "бір жылымыз құтты болсын, жаным. ❤️🥹",
+      "мен сені сүйемін, жаным. бүгін де, ертең де, алдағы барлық күндерде де. ❤️"
+    ],
+    signoff: "— Awf"
+  },
+
+  ending: {
+    title: "Happy one year, zhanym.",
+    signoff: "— Awf"
+  }
+};

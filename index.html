@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>One Year of Us</title>
+  <meta name="theme-color" content="#b88a62">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- INTRO -->
+  <header class="intro" id="intro">
+    <video class="hero-video" autoplay muted loop playsinline preload="auto" poster="media/hero-poster.jpg" aria-hidden="true">
+      <source src="media/hero.mp4" type="video/mp4">
+    </video>
+    <div class="hero-shade" aria-hidden="true"></div>
+    <div class="intro-inner">
+      <p class="mono kicker" data-intro="kicker"></p>
+      <h1 class="intro-title" data-intro="title"></h1>
+      <p class="intro-line" data-intro="line"></p>
+      <p class="mono sound-hint" id="sound-hint" data-intro="soundHint"></p>
+      <p class="mono counter"><span class="days">—</span> days of us</p>
+    </div>
+    <div class="scroll-hint" aria-hidden="true"><span></span></div>
+  </header>
+
+  <!-- CHAPTERS are rendered here from content.js -->
+  <main id="chapters"></main>
+
+  <!-- LETTER: types itself as she scrolls -->
+  <section class="letter" id="letter">
+    <div class="letter-inner">
+      <p class="mono kicker letter-kicker" data-letter="kicker"></p>
+      <div class="letter-body" id="letter-body"></div>
+      <p class="letter-sign" data-letter="signoff"></p>
+    </div>
+  </section>
+
+  <!-- ENDING -->
+  <footer class="ending" id="ending">
+    <p class="mono kicker"><span class="days">—</span> days · and counting</p>
+    <h2 class="ending-title" data-ending="title"></h2>
+    <p class="signoff" data-ending="signoff"></p>
+  </footer>
+
+  <!-- NOW PLAYING -->
+  <div class="player" id="player" hidden>
+    <div class="bars" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+    <div class="track">
+      <span class="track-title" id="track-title"></span>
+      <span class="track-artist" id="track-artist"></span>
+    </div>
+    <button class="mute" id="mute" type="button" aria-label="Mute music">
+      <svg class="on" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4zm12.5 3a4.5 4.5 0 0 0-2.5-4v8a4.5 4.5 0 0 0 2.5-4zM14 3.2v2.1a7 7 0 0 1 0 13.4v2.1a9 9 0 0 0 0-17.6z" fill="currentColor"/></svg>
+      <svg class="off" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4zm12.6 3 2.7-2.7-1.1-1.1-2.7 2.7-2.7-2.7-1.1 1.1 2.7 2.7-2.7 2.7 1.1 1.1 2.7-2.7 2.7 2.7 1.1-1.1z" fill="currentColor"/></svg>
+    </button>
+  </div>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox" hidden>
+    <button class="lb-close" type="button" aria-label="Close">×</button>
+    <figure>
+      <img alt="">
+      <video controls playsinline hidden></video>
+      <figcaption></figcaption>
+    </figure>
+  </div>
+
+  <script src="content.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
