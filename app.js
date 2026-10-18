@@ -145,6 +145,28 @@
         gallery.appendChild(ph);
       }
     }
+    // Lay tiles out in real flex columns (iPhone Safari mis-sizes CSS multi-column
+    // layouts and lets tiles spill over the next section).
+    const tiles = [...gallery.children];
+    function layout() {
+      const n = innerWidth >= 900 ? 3 : 2;
+      if (gallery.dataset.cols == n) return;
+      gallery.dataset.cols = n;
+      gallery.innerHTML = "";
+      const cols = [], heights = [];
+      for (let i = 0; i < n; i++) {
+        const c = document.createElement("div"); c.className = "gcol";
+        gallery.appendChild(c); cols.push(c); heights.push(0);
+      }
+      tiles.forEach(t => {
+        const ar = t.style.aspectRatio ? t.style.aspectRatio.split("/").map(Number) : [4, 5];
+        const h = ar[1] / ar[0];
+        const k = heights.indexOf(Math.min(...heights));
+        cols[k].appendChild(t); heights[k] += h;
+      });
+    }
+    layout();
+    addEventListener("resize", layout);
     el.appendChild(gallery);
     main.appendChild(el);
   });
