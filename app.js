@@ -87,6 +87,7 @@
         const showImage = (src, alt) => {
           const img = new Image();
           img.decoding = "async";
+          img.loading = "lazy";
           img.alt = ""; // never show a broken-image icon or alt text
           img.setAttribute("aria-label", alt);
           img.addEventListener("load", ready, { once: true });
